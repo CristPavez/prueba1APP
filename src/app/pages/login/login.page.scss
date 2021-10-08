@@ -1,0 +1,54 @@
+:root {
+  --background-color: #7d81ff;
+  --ion-color-custom: blue;
+  --ion-text-color: #ffffff;
+}
+
+.header-scss {
+  background-color: #ffffff;
+ 
+  min-height: 40% !important;
+}
+.header-scss::after {
+  background-image: none;
+}
+
+.background-color {
+  --background: #7d81ff;
+  background-color: #7d81ff;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 0cm 0cm 0.9cm 0.9cm;
+  min-height: 100%;
+}
+
+.content-scss {
+  min-height: 60% !important;
+}
+.container {
+    margin-top: 1cm;
+  min-height: auto !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.input {
+  background-color: #ffffff;
+  min-height: 1cm !important;
+  width: 90%;
+  margin: 0.3cm !important;
+  padding-left: 0.2cm !important;
+  border-radius: 0.3cm;
+  border: 1px solid grey;
+}
+.button {
+  --background: #7d81ff;
+  margin-top: 2cm;
+  border-radius: 2cm !important;
+  width: 70%;
+  height: 1cm;
+}
+ 
+ 

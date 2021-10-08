@@ -1,0 +1,51 @@
+ 
+   
+    <app-encabezado></app-encabezado>
+  
+ 
+
+<ion-content>
+
+  <ion-item class="ion-padding-horizontal">
+    <ion-label position="stacked" class="ion-padding-bottom">Choose your driver</ion-label>
+    <ion-select placeholder="Drivers" [(ngModel)]="data.id">
+      <ion-select-option *ngFor="let N of listaChoferes" value="{{N.id}}">{{N.name}}</ion-select-option>
+
+    </ion-select>
+
+
+
+  </ion-item>
+
+<ion-content   *ngFor="let N of filterItemsOfType(data.id)" class="driver-info" > 
+ 
+  <ion-input disabled [value]="N.name"></ion-input>
+ 
+  <ion-input disabled [value]="N.email"></ion-input>
+ 
+  <ion-input disabled [value]="N.car"></ion-input>
+   <img id="car-img" src="{{N.image}}" /> 
+
+
+</ion-content>
+
+
+
+
+
+  <ion-grid>
+    <ion-row class="buttons">
+      <ion-col col-6>
+        <ion-button shape="block" (click)="limpiar()">
+          Clear
+        </ion-button>
+      </ion-col>
+      <ion-col col-6>
+        <ion-button shape="block" (click)="ingresar()">
+          Next
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

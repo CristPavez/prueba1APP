@@ -1,0 +1,21 @@
+#logo-titulo{
+    width: 4.5em;
+    position: absolute;
+    right: 1em;
+    top: 0.2em;
+}
+ion-header::after {
+    background-image: none;
+    }
+ion-toolbar{
+    border-radius: 0cm 0cm 0.5cm 0.5cm;
+    --background: #7d81ff;
+    background-color: #7d81ff;
+}
+ion-header{  
+    --background: #ffffff;
+    background-color: #ffffff;
+
+}
+ 
+ 

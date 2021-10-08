@@ -1,0 +1,23 @@
+.driver-info {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    height: 70%;
+  }
+  
+  ion-input {
+      background-color: #7d81ff18;
+    border: solid 1px grey;
+    width: 90%;
+    border-radius: 0.5cm;
+    margin: 0 auto;
+    margin-top: 0.5cm;
+    padding-left: 0.5cm !important;
+  }
+  
+  #car-img {
+    margin: 5%;
+    border-radius: 0.2cm;
+    width: 90%;
+  }
+  

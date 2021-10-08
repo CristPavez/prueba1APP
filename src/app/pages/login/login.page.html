@@ -1,0 +1,23 @@
+ 
+<ion-content class="ion-text-center header-scss">
+  <ion-toolbar class="background-color">
+
+    <img type="image/svg+xml" width="60%" height="60%" src="../../../assets/img/logol.svg" />
+
+  </ion-toolbar>
+</ion-content>
+
+
+<ion-content class="content-scss">
+
+  <ion-section  class="container">
+    <ion-input type="text" class="input" placeholder="Username"  [(ngModel)]="data.username"></ion-input>
+    <ion-input type="password" class="input" placeholder="Password" [(ngModel)]="data.password"></ion-input>
+    <ion-button class="button" type="submit" (click)="login()">Login</ion-button>
+  </ion-section>
+
+  <a class="container" routerLink="/rpassword" >Forgot password?</a>
+
+</ion-content>
+
+ 
